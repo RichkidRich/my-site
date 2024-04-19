@@ -23,7 +23,184 @@ export const travelGallery = [
         height: 1,
         text: 'Miami-Wynwood'
     },
+    // More 2023
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0336.jpeg?alt=media&token=986721e2-abd6-44e9-8b4e-38c24f23114a',
+        width: 1,
+        height: 1,
+        text: 'Toronto-Evergreen Brickworks',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0343.jpeg?alt=media&token=e7580ae4-6182-4530-829d-aeb27dc14e2a',
+        width: 2,
+        height: 2,
+        text: 'Toronto-Don Valley',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%201.09.10%E2%80%AFPM.png?alt=media&token=7c7ce08c-6f34-490f-a639-f7e51d0228ac',
+        width: 1,
+        height: 3,
+        text: 'Toronto-CNE',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0421.jpeg?alt=media&token=f38539fa-3734-4be7-bde3-fc8781ffacb4',
+        width: 1,
+        height: 1,
+        text: 'Toronto-Don Valley',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0285.jpeg?alt=media&token=ee05900b-e9aa-44c7-b44c-7971ae474717',
+        width: 2,
+        height: 1,
+        text: 'Toronto-St Clair',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0333.jpeg?alt=media&token=0df50958-2111-436b-bed9-7a0cdf5b10b8',
+        width: 1,
+        height: 1,
+        text: 'Toronto-Don Valley',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%201.04.49%E2%80%AFPM.png?alt=media&token=390c1253-0d39-4cf7-867d-fcb2a23ebcde',
+        width: 4,
+        height: 1,
+        text: 'Toronto-Riverdale Park',
+        year: '2023'
+    },
+    // LA 2023
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%2012.54.36%E2%80%AFPM.png?alt=media&token=4944fa8d-d901-4c09-a593-a762c075b262',
+        width: 2,
+        height: 2,
+        text: 'LA-Downtown',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%2012.56.25%E2%80%AFPM.png?alt=media&token=15eac605-0fd1-410a-ad5a-06814bbe94e4',
+        width: 2,
+        height: 1,
+        text: 'LA-Huntington',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%2012.55.26%E2%80%AFPM.png?alt=media&token=eb554710-487d-4e4c-9160-c1c57dd7396b',
+        width: 1,
+        height: 1,
+        text: 'LA-Disney',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_1232.jpeg?alt=media&token=2c9f6f3e-0f3a-4645-b7b9-81039a79ddb1',
+        width: 1,
+        height: 1,
+        text: 'LA-Downtown',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_1303.jpeg?alt=media&token=d34155af-8404-428d-8184-6112d53f0d0f',
+        width: 3,
+        height: 1,
+        text: 'LA-Arboretum',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_1241.jpeg?alt=media&token=8ac66826-5949-4c0a-a912-f7d8f3dd1ce6',
+        width: 1,
+        height: 2,
+        text: 'LA-Downtown',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_1282.jpeg?alt=media&token=802691d9-1525-4403-aaf7-39281026701b',
+        width: 1,
+        height: 1,
+        text: 'LA-Huntington',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_1352.JPG?alt=media&token=ee2989ac-d5c9-4b7d-a8ac-0dd3b73ed792',
+        width: 1,
+        height: 1,
+        text: 'LA-Hollywood',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%2012.57.25%E2%80%AFPM.png?alt=media&token=b819587a-4a90-4f44-98bc-c97634f940ed',
+        width: 1,
+        height: 1,
+        text: 'LA-San Marino',
+        year: '2023'
+    },
     // 2023
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0855.jpeg?alt=media&token=9b4f4673-dcab-4ed9-a269-7730b83dc590',
+        width: 2,
+        height: 1,
+        text: 'Ottawa-Christ Church',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0945.jpeg?alt=media&token=03beaa36-1d52-4887-ada9-0827dc2634f0',
+        width: 1,
+        height: 1,
+        text: 'Toronto-Tommy Thompson',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0811.jpeg?alt=media&token=8a6d2dd1-8baa-4aa5-b487-d3478310b371',
+        width: 1,
+        height: 2,
+        text: 'Ottawa-Rideau Canal',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0950.jpeg?alt=media&token=5e4eb398-7e1d-4652-834d-12a54a6b31c3',
+        width: 1,
+        height: 1,
+        text: 'Toronto-Tommy Thompson',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0795.jpeg?alt=media&token=df35f475-2bf8-4fba-b8b1-7e0b71282ad4',
+        width: 2,
+        height: 1,
+        text: 'Ottawa-Commissioners Park',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0792.jpeg?alt=media&token=95730f3d-c53d-4c48-886d-dd25fe2f69b6',
+        width: 1,
+        height: 2,
+        text: 'Ottawa-Commissioners Park',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%2012.35.01%E2%80%AFPM.png?alt=media&token=db3ccec8-9077-4035-9b1b-cd98817c7dea',
+        width: 2,
+        height: 1,
+        text: 'Barrie-Mt St Louis',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%2012.36.18%E2%80%AFPM.png?alt=media&token=d181b229-0c61-4c99-8bea-11b3d9f1e9de',
+        width: 1,
+        height: 1,
+        text: 'Toronto-Scotiabank Arena',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%2012.33.36%E2%80%AFPM.png?alt=media&token=1d41d38c-b806-431a-9eab-192dafe2b2f8',
+        width: 2,
+        height: 1,
+        text: 'Toronto-Wellesley',
+        year: '2023'
+    },
     // 2022
     {
         url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%2012.51.37%E2%80%AFAM.png?alt=media&token=54ab25f7-af48-4fa1-b341-424e4c9796dc',
