@@ -1,0 +1,79 @@
+.main-bg {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/F6yMF94bkAAyPgu.jpeg?alt=media&token=fa5d767f-bf28-4a58-b4b3-0ec5b75de468");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%
+}
+
+.grid-img {
+    width: 100%;
+}
+
+.single-page {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+
+.travel-grid {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    gap: 1rem;
+    overflow: scroll;
+    height: 80vh;
+
+    grid-auto-rows: 20vw;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+
+    mask-image: linear-gradient(to bottom, black calc(100% - 48px), transparent 100%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all 0.5s;
+    overflow: hidden;
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-tall-2 {
+    grid-row: span 2 / auto;
+}
+
+.card-tall-3 {
+    grid-row: span 3 / auto;
+}
+
+.card-wide-2 {
+    grid-column: span 2 /auto;
+}
+
+.card-wide-3 {
+    grid-column: span 3 / auto;
+}
+
+.card-wide-4 {
+    grid-column: span 4 / auto;
+}
+
+.card-large-2 {
+    grid-column: span 2 / auto;
+    grid-row: span 2 / auto;
+}
+
+.card-large-3 {
+    grid-column: span 3 / auto;
+    grid-row: span 3 / auto;
+}
