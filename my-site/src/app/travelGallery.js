@@ -23,6 +23,42 @@ export const travelGallery = [
         height: 1,
         text: 'Miami-Wynwood'
     },
+    // HK first half
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0748.jpeg?alt=media&token=165123f1-233a-4ecf-94a1-a50e69fbd9f3',
+        width: 1,
+        height: 1,
+        text: '香港-上环',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%201.14.15%E2%80%AFPM.png?alt=media&token=2069720d-424a-4a33-8146-0f4da1009407',
+        width: 2,
+        height: 1,
+        text: '香港-中环',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0716.jpeg?alt=media&token=bb806931-49ac-46ed-82df-6cc222cf50fc',
+        width: 1,
+        height: 1,
+        text: '香港-堅尼地城',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FScreenshot%202024-04-19%20at%201.15.14%E2%80%AFPM.png?alt=media&token=254cef46-2328-4bff-a058-f84f0694b71e',
+        width: 3,
+        height: 1,
+        text: '香港-旺角',
+        year: '2023'
+    },
+    {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0706.jpeg?alt=media&token=0f58d705-d97b-45bf-87c6-54a3d3ab23df',
+        width: 1,
+        height: 1,
+        text: '香港-中环',
+        year: '2023'
+    },
     // More 2023
     {
         url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_0336.jpeg?alt=media&token=986721e2-abd6-44e9-8b4e-38c24f23114a',
