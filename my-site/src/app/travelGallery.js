@@ -18,6 +18,12 @@ export const travelGallery = [
         text: 'Miami-Bayside'
     },
     {
+        url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2F63c2fe53-0c8f-4e61-82d0-92f33d5a3268.jpg?alt=media&token=65f9de6c-7cd4-48ba-9fde-3b7a1d1babc3',
+        width: 1,
+        height: 1,
+        text: '京都-伏見稲荷大社'
+    },
+    {
         url: 'https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/travel%20photos%2FIMG_2651.png?alt=media&token=d9dfbb63-ed98-4629-92dd-114d416d5b7d',
         width: 4,
         height: 1,

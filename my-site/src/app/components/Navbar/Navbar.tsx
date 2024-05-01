@@ -5,25 +5,38 @@ import { Dispatch, SetStateAction } from "react";
 
 interface NavBarProps {
     setPageState: any;
+    currentPageState: any;
+    setPrevPageState: any;
+    prevPageState: any;
     setGallerySelection: any;
 }
 
-const Navbar: React.FC<NavBarProps> = ({ setPageState, setGallerySelection }) => {
+const Navbar: React.FC<NavBarProps> = ({ setPageState, currentPageState, setPrevPageState, prevPageState, setGallerySelection }) => {
   return (
     <div className="navbar-main">
         <div className="nav-option" onClick={() => {
+            setPrevPageState([...prevPageState, currentPageState]);
             setPageState(TRAVEL);
             setGallerySelection(0);
             }}>
             TRAVEL
         </div>
-        <div className="nav-option" onClick={() => {setPageState(PROJECTS)}}>
+        <div className="nav-option" onClick={() => {
+            setPrevPageState([...prevPageState, currentPageState]);
+            setPageState(PROJECTS);
+            }}>
             PROJECTS
         </div>
-        <div className="nav-option" onClick={() => {setPageState(APPS)}}>
+        <div className="nav-option" onClick={() => {
+            setPrevPageState([...prevPageState, currentPageState]);
+            setPageState(APPS);
+            }}>
             APPS
         </div>
-        <div className="nav-option" onClick={() => {setPageState(THINGS)}}>
+        <div className="nav-option" onClick={() => {
+            setPrevPageState([...prevPageState, currentPageState]);
+            setPageState(THINGS);
+            }}>
             THINGS
         </div>
     </div>

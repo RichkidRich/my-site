@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'LGC';
+    src: url('./fonts/LouisGeorgeCafe.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('./fonts/LouisGeorgeCafe.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
 .main-bg {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/F6yMF94bkAAyPgu.jpeg?alt=media&token=fa5d767f-bf28-4a58-b4b3-0ec5b75de468");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/my-site-8b040.appspot.com/o/20240502072131.jpg?alt=media&token=7a12c1aa-cdf7-464f-8651-22515404cf0b");
     background-size: cover;
-    width: 100%;
+    background-position: center;
     height: 100vh;
     padding-top: 5%
 }
@@ -60,6 +66,10 @@
     grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
 }
 
+.travel-video-grid::-webkit-scrollbar {
+    display: none;
+}
+
 .video-card {
     width: 80vw;
     height: 70vh;
@@ -81,6 +91,10 @@
     grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
 
     mask-image: linear-gradient(to bottom, black calc(100% - 48px), transparent 100%);
+}
+
+.travel-grid::-webkit-scrollbar {
+    display: none;
 }
 
 .card {
@@ -129,4 +143,37 @@
 .card-large-3 {
     grid-column: span 3 / auto;
     grid-row: span 3 / auto;
+}
+
+.back-button {
+    z-index: 3;
+    position: absolute;
+
+    top: 1vw;
+    left: 1vw;
+
+    width: 10vw;
+    height: 3vw;
+
+    background-color: aliceblue;
+    font-family: 'LGC';
+    border-radius: 25px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    font-size: 2vw;
+
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
 }
